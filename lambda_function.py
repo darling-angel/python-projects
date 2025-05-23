@@ -24,3 +24,6 @@ def lambda_handler(event, context):
         print("S3 object copy successful. Response:", result)
     except Exception as e:
         print("Error copying object:", str(e))
+
+#Python function that copies the object from the source bucket and paste it into the destination bucket.
+#Remove the existing code in AWS lambda lambda_function.py. Copy the below code and paste it into your lambda_function.py file.
